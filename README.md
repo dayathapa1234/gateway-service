@@ -1,3 +1,9 @@
 # Gateway Service
 
-A Spring Boot application acting as the API gateway for the Nuvesta microservices.
+Spring Cloud Gateway that forwards `/auth/**` requests to the auth-server on port 8081.
+
+## Running
+
+```bash
+./gradlew bootRun
+```
